@@ -7,7 +7,7 @@ use warnings;
 use base 'Template::Plugin';
 use WebService::Thumbalizr;
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.1';
 
 
 
@@ -80,7 +80,7 @@ sub new {
 
   <img src="[% thumbalizr.url('https://www.google.com/', size => 'page', bheight => 1280) %]" />
 
-Display the URL of the Thumbalizr screenshot. You cna use it as the src attribute of your img tag.
+Display the URL of the Thumbalizr screenshot. You can use it as the src attribute of your img tag.
 
 Arguments:
 
@@ -106,7 +106,7 @@ __END__
 
 C<WebService::Thumbalizr>
 
-See L<https://thumbalizr.com/api/documentation for the API documentation.
+See L<https://thumbalizr.com/api/documentation> for the API documentation.
 
 Create a free account at L<https://thumbalizr.com/member> to get your free API key.
 
