@@ -32,8 +32,6 @@ The source code is available on github at L<https://github.com/juliensobrier/thu
 
 =head1 METHODS
 
-=over 4
-
 =head2 new()
 
   [% USE thumbalizr = Thumbalizr('api_key', 'secret') %]
